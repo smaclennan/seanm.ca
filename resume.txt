@@ -1,0 +1,147 @@
+			       Resume of
+			     SEAN MacLENNAN
+----------------------------------------------------------------------------
+			     seanm@seanm.ca
+			  http://www.seanm.ca/
+		      http://github.com/smaclennan/
+----------------------------------------------------------------------------
+
+WORK EXPERIENCE
+
+  I have extensive experience in real-time and Linux kernels, C, assembler,
+  Linux/Unix, and network protocols.
+
+  Dec. 2017 - Present    QNX
+  Nov. 2015 - Nov. 2017  Diablo Technologies
+  Jan. 2011 - Nov. 2015  Afore Solutions
+  July 2005 - Jan. 2011  Pika Technologies Inc.
+  July 2003 - July 2005  PointShot Wireless
+  Jan. 2001 - July 2003  Pika Technologies Inc.
+  Oct. 1999 - Jan. 2001  Rebel.com
+  Sep. 1996 - Sep. 1999  Pika Technologies Inc.
+  Sep. 1990 - Aug. 1996  Multiprocessor Toolsmiths Inc.
+  June 1989 - July 1990  Ursel
+  Aug. 1987 - June 1989  Gandalf
+
+
+SUMMARY OF WORK EXPERIENCE
+----------------------------------------------------------------------------
+
+QNX
+
+Part of the coreos group which was responsible for the kernel, libc,
+and ldqnx.
+
+Initially worked on the hypervisor.
+
+Was part of the effort to remove the big kernel lock and move to fine
+grained locking. The effort was made harder because we were not
+allowed to have nested mutexes.
+
+While I worked on a lot of different projects, some of the big ones
+where:
+
+* Implemented signals for the new kernel.
+* Ported ptmalloc to QNX.
+* Ported PPC from the really old kernel to the old kernel. Yes, PPC in
+  2020s.
+
+DIABLO TECHNOLOGIES
+
+  Diablo produced flash memory as core memory: first as a hardware
+  solution and then with off the shelf NVME drives.
+
+  As a Linux kernel driver developer I worked on all aspects of the
+  drivers. But I mainly focused on the page fault path and storage
+  (writing to flash) portions of the drivers.
+
+  I also worked on the user-mode portion of the drivers. Diablo used a
+  shared library to intercept specific library calls (e.g. mmap and
+  malloc) and redirects them to the Diablo driver.
+
+  I was also responsible for porting to different Linux distros and
+  versions of the kernel.
+
+AFORE SOLUTIONS
+
+  Worked on a system to secure root and data disks on Linux and
+  Windows. Implemented a method to get a key over the network and boot
+  into windows to pass the key to Bitlocker. Wrote support for
+  UEFI. Also responsible for getting the key for multiple Linux
+  distros.
+
+  Worked on a secure storage appliance for Vmware and cloud
+  environments. Was responsible for storage, VPN extensions, and most
+  of the C and shell script based code.
+
+  Responsible for rapid R&D development to prove or reject new and old
+  technologies.
+
+  Afore Solutions re-branded as CloudLink and was then bought by EMC,
+  which became Dell-EMC.
+
+PIKA TECHNOLOGIES INC.
+
+  Was responsible for getting Linux up and running on the in house
+  developed PPC based Warp Appliance. This included writing the kernel
+  platform support, all the Warp specific drivers, updating some of
+  the existing Linux drivers (e.g. i2c-ibm_iic and ndfc), and porting
+  the current Pika drivers to the new platform. I worked with the
+  Linux kernel community to get the changes accepted back into the
+  kernel.
+
+  Was also responsible for the busybox based user mode skeleton needed
+  to get Linux to boot and worked with many of the supporting packages
+  such as dhcp, mail, ssh, udev, etc.
+
+  Part of the team that developed the new line of software for the
+  telecom boards produced in house by Pika Technologies Inc. I wrote
+  the Linux and Windows drivers for the analog and digital telecom
+  boards.
+
+POINTSHOT WIRELESS
+
+  Part of the team developing the RailPoint product for wireless on
+  trains. While I worked on all aspects of the system, my main focus
+  was on integrating cell and satellite technologies and
+  Ethernet/Internet protocols.
+
+  Most of the work is in shell scripts in a Linux environment on a
+  embedded system. Much of the work involved routing and iptables.
+
+REBEL.COM
+
+  Part of the team working on the core software for the NetWinder
+  computer. The NetWinder was a StrongARM and later Crusoe based
+  computer running Linux. The hardware was developed in house.
+
+  I was responsible for driver development and debugging with a strong
+  emphasis on the network drivers. I was also responsible for
+  StrongARM specific fixes to packages (RPMs). All development work
+  was open source.
+
+MULTIPROCESSOR TOOLSMITHS INC.
+
+  Toolsmiths was a small company that produced real-time kernels and
+  tools for a broad range of processors. The development was in C and
+  assembler using Unix. During my employment at Toolsmiths, I was
+  responsible for all aspects of the product including: design,
+  development, documentation, customer support, system integration,
+  and system administration.
+
+  Some of the individual components of the product I worked on were:
+  kernels, multiprocessing, the debugger, device drivers, and BSPs.
+
+URSEL
+
+  Documentation of an aircraft navigation training system to military
+  standards.
+
+GANDALF
+
+  I worked on the Starmaster digital switch. Development was on PCs using
+  PL/M and the iRMX operating system.
+
+  Before that I worked on the Mail 2000 electronic mail product for Gandalf
+  Systems Group, a division of Gandalf. Development was in C using various
+  Unix based platforms.

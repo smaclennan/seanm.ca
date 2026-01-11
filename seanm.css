@@ -1,0 +1,29 @@
+body {
+  background-color: #C0C0C0;
+  margin: 1em 8% 0 8%;
+  /* ie9 defaults to small */
+  font-size: medium;
+}
+
+/* index.html */
+p.main {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+p.large {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+p.huge { font-size: 4em; font-weight: bold; }
+
+p.small { font-size: small }
+
+/* serial-numbers.html */
+tr.bold { font-weight: bold; }
+
+/* comics.html */
+div.comics { float: left; width: 25%; }
