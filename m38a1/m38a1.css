@@ -1,0 +1,11 @@
+BODY {
+  color: black;
+  background-color: #8d9e83;
+  font-family: sans-serif;
+  margin: 1em 4% 0 4%;
+  text-align: justify;
+}
+
+td { text-align: right }
+
+td.left { text-align: left }
