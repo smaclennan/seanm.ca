@@ -1,0 +1,3 @@
+<a href="https://beaus.ca">Beau's</a>
+<a href="https://macleansales.ca/">MacLean's Ales</a>
+<a href="https://perthbrewery.ca/">Perth Brewery</a>
