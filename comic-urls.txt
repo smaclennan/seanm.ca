@@ -11,7 +11,7 @@
 <a href="http://www.dieselsweeties.com/">Diesel Sweeties</a>
 <a href="http://www.gocomics.com/drabble/">Drabble</a>
 <a href="http://www.gocomics.com/duplex/">Duplex</a>
-<a href="http://www.gocomics.com/f_minus/">F Minus</a>
+<a href="http://www.gocomics.com/fminus/">F Minus</a>
 <a href="http://www.gocomics.com/frankandernest/">Frank and Ernest</a>
 <a href="http://www.pidjin.net">Fredo & Pid'jin</a>
 <a href="http://freefall.purrsia.com/">Freefall</a>
@@ -23,11 +23,11 @@
 <a href="http://www.gocomics.com/lio/">Lio</a>
 <a href="http://www.gocomics.com/looseparts/">Loose Parts</a>
 <a href="http://maximumble.thebookofbiff.com/">Maximumble</a>
-<a href="http://www.gocomics.com/moderately_confused">Moderately Confused</a>
+<a href="http://www.gocomics.com/moderately-confused">Moderately Confused</a>
 <a href="http://www.gocomics.com/monty/">Monty</a>
 <a href="http://nedroid.com/">Nedroid (Beartato!)</a>
 <a href="http://www.gocomics.com/nonsequitur/">Non Sequitur</a>
-<a href="http://www.gocomics.com/off_the_mark/">Off The Mark</a>
+<a href="http://www.gocomics.com/offthemark/">Off The Mark</a>
 <a href="http://theotherendcomics.com/">The Other End</a>
 <a href="http://outtherecomic.com/">Out There</a>
 <a href="http://poorlydrawnlines.com/">Poorly Drawn Lines</a>
@@ -51,7 +51,7 @@
 <a href="http://www.gocomics.com/workingitout/">Working It Out</a>
 <a href="http://www.gocomics.com/wumo/">Wumo</a>
 <a href="http://xkcd.com/">xkcd</a>
-<a href="http://www.gocomics.com/zack_hill/">Zack Hill</a>
+<a href="http://www.gocomics.com/zackhill/">Zack Hill</a>
 <em>Other</em>
 <a href="https://www.thebeaverton.com/">The Beaverton</a>
 <a href="http://www.theonion.com/">the ONION</a>

@@ -58,7 +58,7 @@ cat <<EOF
 
 <br clear=all>
 <hr>
-  <small>Back to <a href="http://www.seanm.ca/">seanm.ca</a></small>
+  <small>Back to <a href="https://seanm.ca/">seanm.ca</a></small>
 </body>
 </html>
 EOF
