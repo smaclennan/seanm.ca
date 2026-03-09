@@ -8,14 +8,14 @@
 <a href="https://coveredbridgebrewing.square.site">Covered Bridge Brewing Co.</a>
 <a href="https://www.dominioncity.ca/">Dominion City Brewing Co.</a>
 <a href="https://florahallbrewing.ca/">Flora Hall Brewing</a>
-<a href="https://www.kbeer.ca">Kichesippi Beer Co.</a>
+<a href="https://www.kbeer.ca">Kichesippi Beer Co.</a> (RIP)
 Mill Street Brewpub
 <a href="https://nitabeer.com/">Nita Beer Company</a>
 <a href="https://orleansbrewing.com/">Orleans Brewing Co.</a>
 <a href="https://overflowbeer.com">Overflow Brewing Co.</a>
 <a href="https://www.pistolsbrew.com/">Pistols Brewery</a>
 <a href="https://ridgerockbrewco.ca/">Ridge Rock Brewing Co.</a>
-<a href="https://smallponybarrelworks.com/">Small Pony Barrel Works</a>
+<a href="https://smallponybarrelworks.com/">Small Pony Barrel Works</a> (RIP)
 <a href="https://straydogbrewing.ca/">Stray Dog Brewing Company</a>
 <a href="https://toothandnailbeer.com/">Tooth and Nail Brewing Company</a>
 <a href="https://vimybrewing.ca">Vimy Brewing Company</a>
