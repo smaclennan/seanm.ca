@@ -1,0 +1,33 @@
+#!/bin/sh
+
+DIR=`pwd | sed s:/home/www/::`
+
+# Header
+cat > index.html <<EOF
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link rel="stylesheet" type="text/css" href="../seanm.css">
+<title>$DIR</title>
+</head>
+<body bgcolor="#C0C0C0">
+<!-- Created by make-index -->
+<h1>$DIR</h1>
+<hr>
+EOF
+
+# Dirs
+for d in *; do
+    [ -d $d ] || continue
+    echo "<a href=\"$d/\"><img src=\"images/dir.gif\" width=24 height=23 alt=\"$d\">$d/</a><br>" >> index.html
+done
+# Files
+for f in *; do
+    [ -d $f ] && continue
+    gif=images/image.gif
+    file $f | fgrep -q "ASCII text" && gif=images/text.gif
+    echo "<a href=\"$f\"><img src=\"$gif\" width=24 height=23 alt=\"$f\">$f</a><br>" >> index.html
+done
+
+# Footer
+echo "<hr></body></html>" >> index.html
