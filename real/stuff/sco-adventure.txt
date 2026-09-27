@@ -1,0 +1,40 @@
+Re:IN SOVIET RUSSIA... (Score:5, Funny)
+by Anonymous Coward on Monday June 16, 06:13PM (#6217421)
+http://slashdot.org/comments.pl?sid=67838&cid=6217421
+
+    sco% advent
+
+    Welcome to Adventure!
+
+    > threaten linux_users
+    You get a lot of press. A group of angry penguins can be seen
+    gathering torches in the distance.
+
+    > examine penguins
+    None of them are actually doing anything much that would interfere
+    with your plan.
+
+    > threaten ibm
+    You get a lot more press.
+
+    > threaten ibm_customers
+    You get even more press.
+
+    > examine ibm
+    Looks like you made a mistake. More lawyers than you can shake a
+    stick at are headed your way.
+
+    > beat ibm lawyers
+    That is not an option.
+
+    > kill ibm lawyers
+    Come now, don't be ridiculous.
+
+    > xyzzy
+    That doesn't work here.
+
+    The IBM lawyers have caught up with you. Your company is bankrupt,
+    and sharks are considering revoking their offers of professional
+    courtesy towards your employees.
+
+    You scored 0 of 357 possible points.

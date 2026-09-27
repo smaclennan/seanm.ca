@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <title>Mu-Preamp</title>
+    <link rel="stylesheet" type="text/css" href="../seanm.css">
+  </head>
+  <body bgcolor="#C0C0C0">
+    <h1>MU-PREAMP</h1>
+    <hr>
+
+    <h2>Design Goals</h2>
+
+    <ul>
+	<li>Flat frequency response.
+	<li>20dB gain.
+	<li>No controls.
+	<li>Tuner out.
+	<li>Handle output to low input impedance.
+	<li>Run off cheap wall wart.
+    </ul>
+
+    <p>This is to be my plug and play bass preamp to use with a power
+    amp and cab at a rehearsal space. (Rehearsal space being a fancy
+    name for the singers basement.)
+
+    <p>It met all the goals except the gain. The actual gain is
+    closer to 17dB.
+
+    <h2>Schematic</h2>
+
+    <img src="images/preamp-8.gif" width=640 height=480
+      alt="mu-preamp schematic">
+
+    <!-- First practice Dec 6, 2005 -->
+
+    <p>It is a mu-amp/mini-booster with a buffered output. There where
+    two major problems. One, taming the high gain to keep the preamp
+    from distorting. And two, handling the low input impedance of the
+    power amp.
+
+    <p>The buffered output is the solution, or part of it, for both
+    problems. The mu-amp cannot handle driving a low output
+    impedance. My initial design was just a mu-amp and I got roughly
+    unity gain.
+
+    <p>So I added the 2N5457 output buffer and solved that problem. By
+    selecting low values for  R6  and R7 it  reduces  the gain of  the
+    mu-amp without completely killing it. I tried 100k but that
+    affected the tone. So 220k seems to be the lowest practical value.
+
+    <p>I also increased the source resistor, R2, of the lower JFET
+    from 1k to 5.6k to help tame the distortion. I feel that 10k would
+    have been even better, but I never got around to swapping a 10k
+    in. 10k would drop the gain to roughly 15dB.
+
+    <p>The switch to 30V really helped. I was originally going to use
+    12V but testing showed the higher voltage really helped. So I
+    bought a cheap 24V 200mA DC wall wart. When I measured the
+    current, the mu-preamp was drawing 3.5mA @ 30V.
+
+    <p>One of the big advantages to the mu-amp, and probably the main
+    reason I kept at getting this going, is that it handles bad power
+    supplies very well. All the other transistor based designs I tried
+    produced a very noticeable hum with the 24V wall wart. The
+    mu-preamp is completely quiet.
+
+    <h2>Notes</h2>
+
+    <ul>
+      <li>Untested: Slam a 10k pot to ground on the output for a volume
+      control. <br><br>
+
+      <li>Untested: R2 could be a 10k pot for a gain control. You
+      might want a 1k in series just to keep the gain manageable, or
+      you might not. Allowing the source to go straight to ground will
+      not hurt the FET. <br><br>
+
+      <li>I have breadboarded the mu-preamp with an MPSA18 instead of
+      the 2N5457. I actually slightly preferred the sound, but not
+      enough to unsolder the existing buffer and solder in the new
+      parts. <br><br>
+
+      <li>I tried replacing J2 with an bipolar and got a lot of mild
+      distortion. <br><br>
+
+      <li>The input impedance was measured at about 650k, much less
+      than I expected. <br><br>
+
+      <li>The 470uF cap is probably overkill, but it was rated for 50V
+      and most of my electrolytic caps are only rated for 25V. Hey, I
+      usually use a 9V or, if I am feeling wild, two 9V
+      batteries. <br><br>
+
+      <li>If you set the DC to 30V, spice will claim that the gain
+      becomes negative. If anybody knows why, please contact
+      me.<br><br>
+
+      <li>I use passive P basses and I can still get it to distort if
+      I push the E string hard enough. I tried this design by <a
+      href="http://home.comcast.net/~markfuksman/hamptone.jpg">Scott
+      Hampton</a> an I really like it. Way more gain than the mu-amp
+      without any distortion. However, it really hums with the cheap
+      wall wart.
+
+    </ul>
+
+    <h2>Credits</h2>
+
+    <ul>
+      <li><a href="http://www.muzique.com/">Jack Orman</a> for the
+      mu-amp/mini-booster.
+      <li>The guys at the <a
+      href="http://www.diystompboxes.com/">DIYstompboxes.com</a> forum.
+    </ul>
+  </body>
+</html>

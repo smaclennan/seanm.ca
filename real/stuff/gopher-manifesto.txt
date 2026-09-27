@@ -1,0 +1,304 @@
+(November 16, 2000, updated April 26, 2001 and early 2002)
+(Archived at 27.org 9/01/02)
+Average load time: 7 seconds
+
+
+----------------
+In response to criticism that this Manifesto should be on gopher://
+itself, my reply is that free WWWeb access is abundant while
+Gopherspace is almost extinct, and that we need to first convert the
+WWWeb World and not live in our ivory-tower cloister alone -- so the word
+should be broadcast thru as many protocols as possible, first...
+----------------
+
+
+
+
+the gopher:// manifesto
+=======================
+
+Gopher is an infoserver which can deliver text, graphics, audio, and
+multimedia to clients. Keeping documents "link clean", making linking a
+function of the server info-tree and not in the doc, layout is kept to
+its most frugal minimum, and is standard across all docs. No graphic
+design means its the ideal navigable interface, a hypertext Eden. It
+gives simplified usage for sight-impaired users, same contents for
+wired/wiredless, and requires no capital investments in layout and
+"design". Gopher is real -- and it was fully functional in 1992, even
+without advertisements!
+
+But once the Internet became commercialized, this ideal hypertext
+interface was forgotten, and the gopher dream was scrapped.
+
+The dirty little secret is that today, the most popular browsers can
+recognize any URL -- even gopher://! (Netscape is working to
+stop this.) (UPDATE: could be a result of "severely overworked
+programmers": Netscape's gopher is back and getting better all the time!)
+
+And mathematical formulae seem to indicate that the speed benefits of
+putting the entire non-commercial WWW back on gopher could increase
+access speeds by over 10,000%!
+
+Is it time for a new Renaissance on the Internet, to bring back the
+promise of the early years??
+
+gopher://, aka The Bring Back Gopher Campaign, is a grass-roots
+movement to make this happen.
+
+What we need:
+
+- Modern Gopher servers (eventual goal is for an Apache Gopher server)
+
+- Old gopher clients recompiled for modern clients, and distributed with
+  them by default (Apple support)(http://athene.dnsalias.org/gopher)
+  New: Mozilla support! (http://www.mozilla.org)
+
+- Investigate the "plugin possibility": the last Gopher server was
+  ported to FreeBSD; developer says a release of the VR Gopher source
+  code (still proprietary!) could give Gopher a future as a plugin...
+
+- A gopher-browser capable of receiving gopher-streams for audio and video
+
+- Campaign focal point with mailing-list: now live,
+  see gopher://gopher.browser.org/ or also http://gopher.browser.org/
+
+- Gopher-compatible multimedia streams for television stations
+
+We can do it!
+
+
+
+Campaign links and info
+-----------------------
+
+gopher://gopher.browser.org/
+http://gopher.browser.org/
+gopher://gopher.heatdeath.org/
+
+New Gopher Developer's Mailing List:
+put "subscribe" in subject and mail gopher-request@complete.org
+http://www.complete.org/mailinglists/archives/
+(archives here)
+
+Point of Gopher Campaign discussion:
+http://www.deja.com/=dnc/[ST_rn=ps]/threadmsg_ct.xp?AN=696020200.1
+
+Alternates:
+news:comp.infosystems.gopher
+http://slashdot.org/article.pl?sid=00/11/22/1811243&mode=thread
+
+The King of All Gopher Sites:
+gopher://gopher.floodgap.com
+(WAS gopher://gopher.ptloma.edu/
+Prime example of the corporatization of educational institutions!)
+
+Institution that invented it keeping flame alive (Univ of Minnesota):
+gopher://gopher.tc.umn.edu/
+(Some hope's left?)
+
+First gopher weblog-resource page: gopher://gopher.metafilter.com/
+(need to push for gopher.weblogs.com)
+
+Gopher newsgroups:
+news:comp.infosystems.gopher (general)
+news:alt.internet.services (point of contact)
+news:alt.folklore.computers (knowledgebase)
+news:soc.culture.internet (history)
+news:soc.culture.usenet (talk)
+news:alt.internet.provider (demand support at isp level)
+news:soc.culture.www (competitive)
+news:netscape.public.general (enemy)
+
+Gophersearch:
+Veronica-2 gopher://gopher.ptloma.edu:70/1/v2
+Jughead gopher.utah.edu
+
+Gopher chatroom:
+odili.net/chat/
+
+
+
+New projects & software
+-----------------------
+
+GNOME graphic gopher!
+http://www.hobbiton.org/~pflipp/software/gnopher.en.html
+http://www.hobbiton.org/~pflipp/software/gnopher-screenshot.png
+
+Hot new gopher client (Python package!):
+http://opop.nols.com/proggie/forg-latest.tar.gz
+
+UMN gopher/gopherd, GPL Debian!:
+http://packages.debian.org/unstable/net/gopher.html
+http://packages.debian.org/unstable/net/gopherd.html
+
+Gopherd mirror (1997):
+http://www.rocklinux.org/people/ripclaw/software/gopher
+
+WWWeb to gopher gateway cgi!
+http://www.heatdeath.org:8003/webgopher/tree.jsp (javascript)
+
+Modern gopher hackers:
+http://athene.owl.de/gopher
+
+A code community:
+gopher://moo.ca
+
+New working client in dbXML:
+http://www.dbxmlgroup.com/
+
+Overview of clients and servers:
+http://www.yale.edu/pclt/WINWORLD/GOPHER.HTM
+
+Personal Gopher:
+http://tangible.media.mit.edu/~ullmer/papers/pgopher/node3.html
+
+
+
+Gopherculture & history
+-----------------------
+
+Gopher knowledge (examples):
+gopher://quux.org/ multi-gig text treaasure-trove!
+http://gopher.cuis.edu:70/0gopher_root2%3a[stumpers-l]stumpers-l.1995-03
+gopher://gopher.ag.ohio-state.edu:70/11/newsletters/byg
+http://www.io.com/internet/yanoff/inet.services.html
+
+Gopher jewels (early infotree structure):
+http://www.galaxy.com/GJ/
+http://riceinfo.rice.edu/armadillo/Mlist/archivejun94/msg00080.html
+http://www.uccs.edu/gopher/jewels.html
+http://scout18.cs.wisc.edu/NH/95-05/95-05-08/0014.html (end-of-era)
+
+Gopher spec:
+http://andrew2.andrew.cmu.edu/rfc/rfc1689.html
+
+A Brief History of Gopher:
+http://www.thebee.com/bweb/iinfo15.htm
+
+Gopher icons:
+http://www.mat.dtu.dk/icons/gopher/ (UNIX xbm format)
+http://www.uvm.edu/icon/Gopher/
+http://www5.biostr.washington.edu/icons/Gopher/
+http://websoft.ics.uci.edu/Icons/roadkill.gif (404?)
+http://www.science.uva.nl/~mes/icons/icon.roadkill.gif
+
+
+
+The move against gopher
+-----------------------
+
+Who killed it? (Post-WWW secret history):
+http://www.ics.uci.edu/~rohit/IEEE-L7-http-gopher.html
+
+WWW-revisionism:
+http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?Gopherspace
+
+MSU kills its servers:
+http://www.statenews.com/editionssummer97/070397/campus.html
+
+Result of overzealous server purging:
+http://courses.wc.cc.va.us/wcb/schools/WCC/ist/shavens/7/forums/forum3/messages/2.html
+
+Writing on the wall:
+Netscape Inc. trying to kill gopher (circa November, 2000)
+http://www.deja.com/=dnc/[ST_rn=ps]/getdoc.xp?AN=693812882
+
+
+
+
+Anecdotes, stories, fun
+-----------------------
+
+Uplifting gopher story:
+Connor Sexton writes, "I remember when I was 9 (im 14 now) I was using
+Gopher with my dad on my old 486.  I remember how cool it was to know
+that this information was out there on another computer, being
+accessed by other people.. There was a wealth of information so
+overwhelming I didnt know what to do with it.  As a young child, I was
+highly fascinated by Space, and I asked my dad to type in 'How to be
+and Astronaut' and I got an essay with that topic.  I was SO happy, I
+was amazed at what was happening.  Today, I use the internet and
+witness the horrible commercialization of a wonderful place.  The far
+reaching hands of capatalism leave no stone unturned.  I am willing to
+help you pull this together in any way I can.  I would love to see the
+reinstatement of Goper."
+
+More Gopher thoughts:
+Lawrence Rhodes writes, "'Point your Gopher to...' I remember getting
+excited when almost anything followed these words. It was a sign of
+progress. Or of the impending state of information connectedness we
+all now experience. Now it seems so quaint. I miss it so not for the
+underpinning technology (which may or may not have been superior) but
+for the feeling that the world of information technology, indeed the
+world itself, was advancing rapidly enough to allow the common man
+access to the world's great storehouses of data. Of couse, in
+retrospect, I suppose if I had thought about the common man's
+infatigable hunger for porn and nonstop commerce and the myriad other
+forms of bad taste, I would have seen the dangers of the banal. Indeed
+Gopher represented a simpler, more naive time."
+
+Sober warning:
+Kris Kennaway writes, "... since there are apparently still people
+using gopherd, someone really should fix the remote buffer overflows
+in the server which were reported a while back on bugtraq (search on
+www.securityfocus.com for the details). An updated version was
+released after the first one was found, but then there were more
+reported and no new version was released. ... it's kind of disturbing
+to think that almost all of what remains of the old gopher network is
+probably vulnerable to a remote root exploit."
+
+Co-author of Internet Gopher protocol speaks:
+Bob Alberti writes (partial letter), "When in the dawn of the Third
+Millennium people, misguided or simply ignorant, are still using
+'anonymous' FTP for file servers; and as cell phone developers
+reinvent the wheel by whittling HTML down to more compact protocols
+rather than building upon what exists; then it is clear that greater
+understanding and awareness of the Gopher and Gopher+ protocol is
+sorely needed.
+	"FTP is a 1960's-era solution designed to communicate between
+'dumb' terminals and mainframes.  Having written the FTP-to-Gopher
+gateway, I can attest that the FTP protocol is incredibly primitive
+and vulnerable to abuse.  And the conventional overloading of the
+protocol for 'anonymous' FTP service is an example of speed and
+patchwork overcoming design limitations.  FTP is notoriously insecure,
+requiring in many cases bidirectional firewall holes for support, and
+communicating in cleartext.  FTP can be used to damage its own server,
+and FTP cannot serve forms, and only serves banners with clumsy
+patchwork.
+	"Gopher servers can share filesystems quickly and easily.
+Gopher allows for 'cap' files to modify the appearance of the
+directories being served.  It allows for cgi-style scripts, form
+submission, and multiple languages.  And Gopher easily overlays
+existing FTP service directories, providing freedom of choice.
+	Gopher+ was a bridge spanning the 1200-baud world of its
+existence with the 56K future only a few years ahead.  When a severe
+communications bottleneck exists between the server and the client,
+then the quick, clean and efficient Gopher+ protocol provides a
+feasible solution.
+	"But Gopher+ will benefit from greater exposure:  ignorance of
+the Gopher protocol does not serve the greater Internet community: as
+with any powerful tool, Gopher service can pose a security
+vulnerability, especially when inexpertly implemented.  And in order
+to provide commercial services, Gopher servers with greater encryption
+and security features must be developed.
+	"Wireless communications developers would be well-advised to
+look at this venerable Internet protocol when seeking ways to
+communicate with wireless and handheld devices such as PDAs and cell
+phones.  The Gopher+ protocol could be a quick, efficient,
+standardized open-source solution to the problem of handheld clients."
+
+
+
+REQUEST:
+URLs for any CGI Gopher to Web gateways, for the gopher:// impaired?
+
+Send your gopher stories! Just Gopher It!
+Originally at http://www.scn.org/~bkarger/gopher-manifest/ and now archived
+at http://27.org/gopher-manifesto/.
+
+by Bjorn Karger
+bkarger@scn.org
+
+Archived by Wm. Rhodes
+gopher-manifesto@27.org

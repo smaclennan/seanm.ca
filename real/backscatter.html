@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <title>Backscatter Mail</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="seanm.css">
+  </head>
+  <body bgcolor="#C0C0C0">
+
+    <h1>Backscatter Mail</h1>
+
+    <p>What is backscatter mail? From <a
+    href="http://www.postfix.org/">postfix.org</a>:
+
+    <blockquote> When a spammer or worm sends mail with forged sender
+    addresses, innocent sites are flooded with undeliverable mail
+    notifications. This is called backscatter mail, and if your system
+    is flooded then you will find out soon enough.
+    </blockquote>
+
+    <p>I actually first noticed on August 5 2004 due to the increased
+    amount of spam that was being caught. I then checked the logs and
+    noticed mail had gone from the 100 or so emails I get a day to
+    thousands of emails! Below is a graph of the hourly deliveries around the
+    event.
+
+    <p><center>
+      <img src="images/backscatter.gif" width=480 height=320
+	alt="Graph of hourly mail deliveries">
+    </center>
+
+    <p>On the sixth I really just spent the evening working out what
+    was going on. I had never heard of backscatter mail before. On the
+    seventh I attempted to change my email server from qmail to
+    postfix, but the attempt was made in haste and too many issues
+    sprung up. After half an hour, I went back to qmail. Note that
+    this was *not*, repeat *not*, a problem with postfix. I just tried
+    to do too much too fast.
+
+    <p>One of my email policy decisions was causing me a lot of
+    grief. Qmail allows you to define a default user who gets all of
+    the mail from unknown users. I had the default pointing to my
+    account. There are many advantages to this:
+
+    <ul>
+      <li>Typos are caught.
+      <li>No administration to add a new alias. i.e. I am lazy.
+      <li>Every time a list or service asks for an email address, you
+      can make up a new one. If you find they lied and start sending
+      you spam, you can blackhole the address.
+    </ul>
+
+    <p>However, all the email was swamping me (even with <a
+    href="http://bogofilter.sourceforge.net/">bogofilter</a>. So I bit
+    the bullet and created all the aliases I could remember or find
+    and removed the default alias. This caused the spike on August
+    8. All the backscatter was being bounced back to the originators,
+      who then tended to bounce it back to me! I actually made the
+      problem worse. So I added the default user back.
+
+    <p>I then stumbled upon Paul Jarc's <a
+    href="http://multivac.cwru.edu/qmail/">qmail-realrcptto
+    patch</a>. This patch is well described on his page, but basically
+    it drops all mail to unknown users up front, before the body of the
+    message has been read. The mail is dropped, not bounced. Once I
+    had this patch in place, I dropped the default alias and had
+    peace.
+
+    <p>By the time I added Paul Jarc's patch, the email was already
+    dropping off. While I still have more email coming in than before,
+    it is now manageable.
+
+    <h2>Upside</h2>
+
+    <p><i>All programmers are optimists - Fred Brooks</i>
+
+    <p>While I wish it hadn't happened, there was a upside to all of
+    this.
+
+    <ul>
+      <li>I am now fairly good at reading qmail log files.
+      <li>I learned more than I ever wanted to know about SMTP servers
+	in a very short time.
+      <li>The realrcptto patch has drastically reduced my spam.
+      <li>I now have some tools to measure mail traffic.
+      <li>I fixed a firewall bug that was blocking legitimate IPs.
+    </ul>
+
+    <h2>Qmail Links</h2>
+
+    <p><ul>
+      <li><a href="http://cr.yp.to/qmail.html">D. J. Bernstein's
+      Site</a>
+      <li><a href="http://lifewithqmail.org/">Life with Qmail</a>
+      <li><a href="http://qmail.org/">qmail.org</a>
+    </ul>
+
+    <hr>
+    <p class=small>Contact <a href="mailto:webmaster@seanm.ca">Sean MacLennan</a>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+Christ, people. Learn C, instead of just stringing random characters
+together until it compiles (with warnings).
+
+Linus Torvalds 3 Sep 2015

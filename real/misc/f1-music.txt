@@ -1,0 +1,43 @@
+To: 0xdeadbeef@petting-zoo.net
+Subject: Formula 1 Music
+Date: Wed, 15 Jan 2003 14:58:51 -0800
+
+Forwarded-by: "Rex B"
+
+Check this out, Formula 1 team programs engine to play music. I quote
+from a previous email:
+
+    Load the link and press play.
+
+    http://astro.temple.edu/~kmr/Chauffe2.mp3
+
+    First you'll hear a 10-cylinder, 750 horsepower Asiatech F1 engine
+    being warmed up. Then it performs a rousing version of "When The
+    Saints Come Marching In", to the delight of assembled pit staff
+    and journalists.
+
+    Here's how the magic was achieved (technical/musical details via
+    F1 Racing magazine):
+
+    As we all know, a V10 engine produces five combustions per
+    revolution at a frequency per second of 60/(5 x revs per minute),
+    which equals 12/rpm. Therefore, to work out the revs you need to
+    hit a particular musical note, you multiply the note's frequency
+    by 12. To play a 440Hz 'A', for example, you need 5,280rpm.  For
+    'C', use 3,139rpm, for 'F' 4,191rpm, and so on.
+
+    Asiatech's French technicians (the engine, despite its name, is
+    derived from a Peugeot design) simply programmed their engine to
+    run through the various rev/note ranges in the correct
+    sequence. The result is delightful. And think of the possibilities
+    - BMW's F1 engine, which howls all the way to 19,050rpm, could rip
+    through the entire Hendrix songbook.
+
+    Even better: imagine a massed NASCAR choir performing "The Star
+    Spangled Banner"! Being eight-cylinder engines, the frequency per
+    second would be 60/(4 x revs), which means you'd multiply the note
+    frequencies by 15 instead of 12: 'A' would arrive at 6,600rpm, 'C'
+    at 3,923rpm, 'F' at 5,238rpm, etc.
+
+    Mark my words, someone will be getting rich at Daytona next year
+    selling a CD of NASCAR patriotic anthems.

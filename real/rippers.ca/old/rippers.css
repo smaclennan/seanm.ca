@@ -1,0 +1,182 @@
+body {
+  background-color: white;
+  font-family: "Times New Roman, Times, serif";
+  color: #ff9933;
+}
+
+p { width: 980; margin-left: auto; margin-right: auto; font-weight: bold }
+
+p.small { font-weight: normal; font-size: small }
+
+td {
+    /* border: 1px solid red; */
+    font-weight: bold;
+}
+
+a {
+    /* You need to set the color */
+    color: #ff9933;
+    text-decoration: underline;
+    text-underline: single;
+    text-decoration-color: red;
+    -moz-text-decoration-color: red;
+}
+
+img { border: 0; }
+
+marquee {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#rcorners {
+  border-radius: 10px;
+  width: 140px;
+  height: 34px;
+  text-align: center;
+
+  background: #b45f06; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#f6b26b, #b45f06); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f6b26b, #b45f06); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f6b26b, #b45f06); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#6e012b, #8f3e80); /* Standard syntax */
+}
+
+#button {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffff00;
+  text-decoration: none;
+}
+
+#container2 {
+  clear: left;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+#container1 {
+  float: left;
+  position: relative;
+  right: 50%;
+  width: 100%;
+}
+
+#col1 {
+  float: left;
+  left: 62%;
+  overflow: hidden;
+  position: relative;
+  width: 46%;
+  font-weight: bold;
+}
+
+#col2 {
+  float: left;
+  left: 46%;
+  overflow: hidden;
+  position: relative;
+  width: 46%;
+  font-weight: bold;
+}
+
+/* This is for the schedule */
+td.year {
+    background-color: black;
+    padding: 6;
+    text-align: center;
+}
+td.date {
+    width: 10%;
+    background-color: black;
+    padding: 6;
+}
+td.perf {
+    width: 40%;
+    background-color: black;
+    padding: 6;
+}
+td.update {
+    width: 10%;
+    background-color: black;
+    padding: 6;
+    color: green;
+}
+td.upperf {
+    width: 40%;
+    background-color: black;
+    padding: 6;
+    color: green;
+}
+a.up {
+    color: green;
+}
+
+/* The rest is all for the photos */
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 720px;
+  height: 480px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}

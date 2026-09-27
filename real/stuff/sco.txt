@@ -1,0 +1,76 @@
+Yeah, but SCO code is non-migratory... (Score:5, Funny)
+by OpCode42 (253084) on Friday June 13, 05:29PM
+http://slashdot.org/comments.pl?sid=67531&amp;cid=6195199
+
+
+It's 967AD and the restless SCO Villagers find a witch and are keen to
+burn her!  A secret meeting with Microsoft takes place to see if they
+can...
+
+SCO:           SCO Code! SCO Code! SCO Code! We've found SCO Code in
+               Linux!
+SCO LACKEY #1: We have found some SCO Code in Linux! May we burn it?
+SCO:           Burn the users! Burn! Burn it! Burn its users!
+MICROSOFT:     How do you know it is SCO Code?
+SCO LACKEY #2: It looks like it.
+SCO:           Right! Yeah! Yeah!
+MICROSOFT:     Bring it forward.
+GPL'd CODE:    I'm not SCO Code. I'm not!
+MICROSOFT:     Uh, but you are dressed as such.
+GPL'd CODE:    They dressed me up like this.
+SCO:           Augh, we didn't! We didn't...
+GPL'd CODE:    And these aren't my comments. They're false ones.
+MICROSOFT:     Well?
+SCO LACKEY #1: Well, we did do the comments.
+MICROSOFT:     The comments?
+SCO LACKEY #1: And the copyright lines, but it is SCO Code!
+SCO LACKEY #2: Yeah!
+SCO:           We burn it! Right! Yeaaah! Yeaah!
+MICROSOFT:     Did you dress it up like this?
+SCO:           No! No. No. No. No. No. Yes. Yes. Yes. Yeah, a bit. A
+	       bit. It does look like UNIX though.
+MICROSOFT:     What makes you think it is SCO Code?
+SCO LACKEY #3: Well, it turned me into Windows!
+MICROSOFT:     Windows?
+SCO LACKEY #3: I got better.
+SCO LACKEY #2: Burn it anyway!
+SCO LACKEY #1: Burn!
+SCO:           Burn it! Burn! Burn it!...
+MICROSOFT:     Quiet! Quiet! Quiet! Quiet! There are ways of telling
+               whether it is SCO Code.
+SCO LACKEY #1: Are there?
+SCO LACKEY #2: Ah?
+SCO LACKEY #1: What are they?
+SCO:           Tell us! Tell us!...
+MICROSOFT:     Tell me. What do you do with SCO Code?
+SCO:           Compile it! Compile it! Compile! Compile!...
+MICROSOFT:     And what do you compile apart from SCO Code?
+SCO LACKEY #1: More SCO Code!
+SCO LACKEY #3: Shh!
+SCO LACKEY #2: BSD Code!
+MICROSOFT:     So, why does SCO Code compile?
+               [pause]
+SCO LACKEY #3: B--... 'cause its copied from... BSD?
+MICROSOFT:     Good! Heh heh.
+SCO:           Oh, yeah. Oh.
+MICROSOFT:     So, how do we tell whether it is copied from BSD?
+SCO LACKEY #1: See if it builds with gcc?
+MICROSOFT:     Ah, but can you not also build Linux with gcc?
+SCO LACKEY #1: Oh, yeah. Oh, yeah. True. Uhh...
+MICROSOFT:     Does BSD come under the GPL license?
+SCO LACKEY #1: No. No.
+SCO LACKEY #2: No, its free! We can do what we want with it
+               commercially!
+MICROSOFT:     And what else are you free to use commercially?
+SCO:           Bread! Apples! Uh, very small rocks! Cider! Uh, gra--
+               gravy! Cherries! Mud! Uh, churches! Churches! Lead!
+               Lead!
+ARTHUR:        Your Own Code!
+SCO:           Oooh.
+MICROSOFT:     Exactly. So, logically...
+SCO LACKEY #1: If... it... has... been released by us
+               commerically,... it's made of SCO Code.
+MICROSOFT:     Yes, and have you released it commercially?
+SCO LACKEY #2: Yes! In our Linux Distribution!
+SCO LACKEY #1: SCO Code! SCO Code! SCO Code! SCO Code! SCO Code! Burn
+               it! Burn the users!

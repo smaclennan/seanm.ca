@@ -1,0 +1,84 @@
+Index: include/asm-arm/arch-ebsa285/time.h
+===================================================================
+RCS file: /cvs/pub/kernel/armlinux/include/asm-arm/arch-ebsa285/time.h,v
+retrieving revision 1.2.2.3
+diff -u -r1.2.2.3 time.h
+--- include/asm-arm/arch-ebsa285/time.h	1999/08/29 19:21:44	1.2.2.3
++++ include/asm-arm/arch-ebsa285/time.h	2000/03/24 21:49:31
+@@ -273,6 +273,49 @@
+ 	NULL
+ };
+ 
++static unsigned long timer3_gettimeoffset (void)
++{
++	unsigned long value = mSEC_10_from_14 - *CSR_TIMER3_VALUE;
++
++	return (tick * value) / mSEC_10_from_14;
++}
++
++static void timer3_interrupt(int irq, void *dev_id, struct pt_regs *regs)
++{
++	*CSR_TIMER3_CLR = 0;
++
++	/* Do the LEDs things */
++	do_leds();
++
++	do_timer(regs);
++
++	/* If we have an externally synchronized linux clock, then update
++	 * CMOS clock accordingly every ~11 minutes.  Set_rtc_mmss() has to be
++	 * called as close as possible to 500 ms before the new second starts.
++	 */
++	if ((time_status & STA_UNSYNC) == 0 &&
++	    xtime.tv_sec > last_rtc_update + 660 &&
++	    xtime.tv_usec > 50000 - (tick >> 1) &&
++	    xtime.tv_usec < 50000 + (tick >> 1)) {
++		if (set_rtc_mmss(xtime.tv_sec) == 0)
++			last_rtc_update = xtime.tv_sec;
++		else
++			last_rtc_update = xtime.tv_sec - 600; /* do it again in 60 s */
++	}
++
++	if (!user_mode(regs))
++		do_profile(instruction_pointer(regs));
++}
++
++static struct irqaction timer3_irq = {
++	timer3_interrupt,
++	0,
++	0,
++	"timer",
++	NULL,
++	NULL
++};
++
+ static int
+ set_dummy_time(unsigned long secs)
+ {
+@@ -284,6 +327,8 @@
+  */
+ extern __inline__ void setup_timer(void)
+ {
++	extern unsigned long system_rev;
++
+ 	if (machine_arch_type == MACH_TYPE_CO285)
+ 		/*
+ 		 * Add-in 21285s shouldn't access the RTC
+@@ -344,6 +389,17 @@
+ 		*CSR_TIMER1_CNTL = TIMER_CNTL_ENABLE | TIMER_CNTL_AUTORELOAD | TIMER_CNTL_DIV16;
+ 
+ 		setup_arm_irq(IRQ_TIMER1, &timer1_irq);
++	} else if(machine_is_netwinder() && (system_rev & 0xf000) >= 0x5000) {
++		// NetWinder rev 5 or greater use footbridge timer3 external.
++		// This timer is not shaken.
++		gettimeoffset = timer3_gettimeoffset;
++
++		*CSR_TIMER3_CLR  = 0;
++		*CSR_TIMER3_LOAD = mSEC_10_from_14;
++		*CSR_TIMER3_CNTL = TIMER_CNTL_ENABLE | TIMER_CNTL_AUTORELOAD |
++			TIMER_CNTL_CNTEXT;
++
++		setup_arm_irq(IRQ_TIMER3, &timer3_irq);
+ 	} else {
+ 		/* enable PIT timer */
+ 		/* set for periodic (4) and LSB/MSB write (0x30) */

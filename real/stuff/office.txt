@@ -1,0 +1,26 @@
+			  THOUGHTS ON OFFICE
+
+Sean: The Washington Post had an article on ThinkFree Office. (A link
+to the article is at the bottom of this page.) The following snippet
+from the bottom sums up my feelings about Microsoft Office.
+
+    But I hope there is room for a program like this: Office is
+    overkill for most users.
+
+    Consider the Office files I used to test ThinkFree's compatibility
+    -- documents I've received in e-mail from friends, co-workers,
+    contributors and publicists over the past few years.
+
+    Most of the Word files would have looked no different as "rich
+    text format" documents. Nearly all of the Excel files were nothing
+    more than glorified tables. Almost every PowerPoint presentation
+    amounted to a minimally illustrated, bullet-point list, and some
+    only consisted of a single graphic on a page.
+
+    It's a waste to use $480 worth of Office suite for such simple
+    work. But it's not a surprise either. To paraphrase what others
+    have said: When Microsoft Office is your only hammer, pretty much
+    everything begins to look like a nail. Or a thumb.
+
+
+http://www.washingtonpost.com/ac2/wp-dyn/A4988-2002Apr6?language=printer

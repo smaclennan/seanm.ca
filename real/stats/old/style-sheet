@@ -1,0 +1,31 @@
+TD {
+	font-size: small;
+	text-align: right;
+}
+
+TD.N 	{ font-weight: bold; }
+
+TD.TEXT { text-align: left }
+
+TD.SMALL { text-align: left; font-size: small; }
+
+TD.URL { text-align: left }
+
+TD.DAY {
+	text-align: center;
+	<!-- font-weight: bold; -->
+}
+
+TH { background-color: #C0C0C0 }
+
+TH.SMALL  { font-size: small; }
+TH.N	  { font-size: small; text-align: right; }
+
+TH.DAY    { font-size: small; }
+TH.HITS   { font-size: small; background-color: #008040 }
+TH.FILES  { font-size: small; background-color: #0080FF }
+TH.PAGES  { font-size: small; background-color: #00E0FF }
+TH.VISITS { font-size: small; background-color: #FFFF00 }
+TH.SITES  { font-size: small; background-color: #FF8000 }
+TH.KBYTES { font-size: small; background-color: #FF0000 }
+TH.NAME	  { font-size: small; background-color: #70DF70 }

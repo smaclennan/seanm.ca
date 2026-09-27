@@ -1,0 +1,443 @@
+STALLMAN: SOFTWARE PATENTS VICTIMISE DEVELOPERS
+
+Thursday 28th March 2002
+Matt Loney
+
+
+Part I: Software patents are victimising developers with a system
+which is making it increasingly difficult to write programs, according
+to free software guru Richard Stallman
+
+
+In a talk earlier this week, Richard Stallman described software
+patents as a sort of lottery, bringing benefits to people only rarely.
+
+
+Stallman is well known among free software fans as the writer of the
+GNU Public Licence, the licensing model used by most open-source
+software writers to ensure that any improvements, additions or changes
+of any sort to their software is contributed back to the community.
+
+On Monday afternoon Richard Stallman was invited by the Foundation for
+Information Policy Research to speak at the Cambridge University
+Computer Lab on the issue of software patents.
+
+
+Stallman kicked off his talk by explaining that he does not have a
+problem with patenting individual programs -- "that would be harmless"
+-- but with patenting ideas. "That is what makes them (patents) a
+dangerous obstacle to software development."
+
+
+Equally, the term "intellectual property" should not be used,
+according to Stallman, because it is biased. "It makes the assumption
+that you should treat what you're talking about as property. That is
+not conducive to clear, open-minded thinking."
+
+
+The following is a transcribed version of Stallman's speech:
+
+
+Patents are like the lottery
+----------------------------
+
+Stallman: Most people who tell you about the patent system have a
+stake in it, and so they want you to like it. But patents are like the
+lottery because they only rarely bring benefits to people. Lotteries
+invite you to think about winning, never about losing, and it is the
+same with the patenting system.
+
+
+Let's talk about patents from the point of view of the victims; that
+is the software developers. The first thing you do after you have an
+idea for what sort of software you want to write, is to find out what
+patents may cover the area. This is impossible, because some patent
+applications pending are secret. They may get published after 18
+months, but that is plenty of time for you to write your own program
+and publish it.
+
+
+For instance, in 1984 the Compress program was written. At that time
+there was no patent on the LZW (compression) algorithm, but the LZW
+patent was pending at the time, and was granted in 1985. Over next few
+years those who distributed Compress started getting threats. All the
+Compress programmer did was use an idea he had found in a journal,
+just like software authors had always done.
+
+
+The trouble with discovery
+--------------------------
+
+Issued patents are published by the patent office, so you can find the
+whole list, but you could never read the whole list because there are
+too many of them, and you could not keep track them.
+
+
+So you would have to search for the related patents ones. Some say
+that should be easy, and it will work to an extent -- you may find
+some, but not all. For instance, there was one patent on natural order
+recalculation in spreadsheets; natural order recalculation means that
+every cell gets recalculated after the cells it depends on, so that
+everything is always up to date. This is known as topological
+sorting. The patent I found in 1963 covered several ways you could
+implement this sorting, but it did not mention the key words
+(topological sorting or natural order recalculation). In fact it
+described as method of combining formulae into object code; when I
+first saw it I thought it was the wrong patent.
+
+
+So even if you have a list of patents, try studying them. It is very
+hard to understand them because they are written in tortuous legal
+language. There was an Australian government study of the patent
+system in the 80s and this decided that aside from the fact of
+international pressure there was no reason to have the system. One
+thing they found was that engineers do not bother to read patents to
+understand them because they are too difficult.
+
+
+So what now? There are three approaches to dealing with patents:
+avoiding the patent; licensing the patent; or overturning the patent
+in court.
+
+
+
+Part II: There are three ways to get around the problems of software
+patents, says Richard Stallman. But it's a minefield, and the chances
+of making a wrong step are high
+
+
+In the second part of Richard Stallman's speech at the Cambridge
+Computer Lab, the free software guru explains how software developers
+can avoid software patents.
+
+
+Tackling software patents I: Avoidance
+--------------------------------------
+
+Stallman: The best way to avoid a software patent is to not use the
+idea that is covered by the patent. In some cases a feature is
+patented, so you avoid it by not implementing the feature.
+
+
+But of course you then have to ask yourself how important is that
+feature? In some cases you can live without it. For instance, users of
+the xyWrite word processor once got a downgrade through the mail,
+removing a feature that let you define abbreviations for long words
+and phrases. The developers of xyWrite had tried negotiating with the
+patent holder, but finally decided to remove the feature. For a single
+feature this might be acceptable, but as various features start
+getting hit (by patent claims) you end up with a program that is no
+good.
+
+
+For instance, what do you do with the BT patent on traversing
+hyperlinks together with dial-up access? Traversing hyperlinks is
+essential. How do you do without this feature? Then there is the
+public key encryption patent. In the US, this largely blocked public
+key encryption for ten years because the patent holders imposed
+restrictions. There was no way around that patent, and there was
+nothing else you could do if you wanted to use public key encryption
+in your products.
+
+
+In some cases of course you might be able to find a better
+algorithm. Because we could not use the compress algorithm in the GNU
+project, we started looking for a better data compression
+algorithm. We ended up with GZIP. As an algorithm to use in a program
+for data compression GZIP worked fine, but when we started saying to
+tell people to stop using gif files (which used the patented LZW
+compression), people said we can't switch, the browsers don't support
+it yet, and browser companies said nobody's using it yet. There was so
+much inertia that we have not been able to switch people in ten years.
+
+
+So avoiding software patents may be easy, but it may also be
+impossible. And where it is easy, it may make a program useless; it
+varies depending on the situation.
+
+
+And sometimes a company can take a format and make it a de facto
+standard, and then if that is patented it is a real disaster. There
+was uproar recently when the W3C proposed to start adopting standards
+that were covered by patent. The community objected and the W3C
+reversed its decision.
+
+
+Tackling software patents II: Licensing
+---------------------------------------
+
+Licensing a patent is not necessarily an option, because the patent
+holder does not have to offer you a licence. A lot of patent holders
+do offer licences, but sometimes they demand a lot of money. Some
+demand 5 percent -- you might be able to afford this, but what if you
+have licence 20 patents to make a program? Practically speaking two or
+three licences will make any business plan unfeasible.
+
+
+However, there is a situation where licensing patents is a good idea:
+if you are a multinational mega corporation that owns lots of patents
+and cross-licenses them.
+
+
+An IBM employee published an article in Think magazine in 1990, saying
+it got two kinds of benefits from patents: the first benefit was from
+collecting royalties, and the second benefit was in getting access to
+the patents of other companies. He also said that this second benefit
+was an order of magnitude greater then the first.
+
+
+So the benefit of being able to license patents from others was ten
+times the benefit of licensing its own patents. Being able to do this
+meant IBM was excused from the trouble the patent system can cause
+you.
+
+
+This phenomenon of cross-licensing refutes a common myth: the myth of
+a starving genius; the myth that patents protect small inventors (and
+protect is a propaganda term).
+
+
+Suppose there is a brilliant inventor who spent years starving and
+designing a new whatever, and he now wants to manufacture it. For a
+start, people in high-tech fields do not generally work on their own,
+and these people have pretty good chances of getting a job anyway, so
+the scenario of one starving person working alone is unrealistic. But
+it is conceivable; they could have a good idea. So what happens if the
+inventor tries to use a patent to stop a big company? IBM simply says:
+"Let's look at your product; we have these patents that parts of your
+patent infringe -- can you fight these in court? Why don't you
+cross-licence with us?"  The small guy says OK, and he goes away and
+makes this stuff, and IBM goes away and gets access to his patent, and
+competes, so patent did not ever really "protect" him.
+
+
+Big corporations mainly see the good side of patents; that is why they
+want patents. IBM can almost always make you cross-licence, but the
+small companies can only occasionally do this.
+
+
+Tackling software patents III: Litigation
+-----------------------------------------
+
+Supposedly for a patent to be granted, something has to be new,
+usable and non-obvious. But when the patent office gets into the
+game, "new" means "we don't have it in our files", and "unobvious"
+means unobvious to someone with an IQ of 50.
+
+
+The US Patent Office does things that are so obviously foolish: for
+instance, the famous Harvard mouse patent, dealing with a strain of
+mouse that had a cancer-causing gene. The gene was already known, the
+insertion technique was already known, and the strain of mouse was
+already known. The patent essentially covered inserting any gene into
+any creature. Such over-broadening is common.
+
+
+When programmers look at a lot of software patents they may say they
+are obvious, but the patent officers say you have to consider it in
+the context of 10 years ago. What happens is that if they talk enough
+you lose your bearings. Then they describe the patent holders as
+brilliant inventors, so we cannot question their entitlement to power
+over what we already do. In a court a judge may be a little more
+stringent, but it costs millions of dollars to do that.
+
+
+The courts are an option, but because of the expense they incur they
+are often out of the question, even if you can find prior art. As a
+result, an invalid patent is a dangerous tool.
+
+
+So all three of these possibilities are things that you might
+sometimes be able to use, but if you face patent after patent after
+patent, it gets like crossing a minefield. With each design decision
+you might not have a problem, but as you take each step your chances
+of getting all the way through the minefield get less and less.
+
+
+Part III: Writing software is like writing a symphony, says Richard
+Stallman, founder of the Free Software Foundation. Just imagine if
+music could be patented...
+
+
+In the third part of his speech at the Cambridge Computer Lab, Richard
+Stallman explains why building software is not like building physical
+projects, and offers two solutions to the problem of software patents:
+one for Europe where software patents are not widely granted and one
+for the US where the situation already seems to be out of control.
+
+
+Software patents: Should there be a special case?
+-------------------------------------------------
+
+Stallman: People say, if patents are allowed in other fields, why
+should software be exempt? This question contains a presumption that
+we should all suffer together, but there lies behind it a less biased
+question, which is: is software really so different from other fields?
+And, should patents work differently in different fields?
+
+
+Well yes, patents do work differently in other fields. In biotech for
+instance, one product might be affected by a patent. If a new product
+is developed, that is protected separately. There is a naive idea that
+there is one patent per product, that it covers the idea of that
+product.
+
+
+Software is at the opposite extreme, because software packages are
+very big, and because they use different ideas in different ways. You
+have to implement these ideas in this combination -- you cannot just
+say their names and expect them to work. So when you write a program
+you are using lots of ideas, some of which might patented, but they
+are working together in ways that might be patented, so where there
+could be thousands of ideas that might conflict with existing patents.
+
+
+This is why patents obstruct development of products.
+
+
+There is economic research showing how imposing the patent system on a
+field where there is incremental innovation can retard
+progress. Advocates say: "yes, there might be problems, but the patent
+system promotes innovation so the problems don't matter."
+
+
+In fact, there is no reason to believe the patent system does promote
+progress.
+
+
+Extreme software
+----------------
+
+Why is software at this extreme? Because we are developing idealized
+mathematical concepts. We can build a castle and rest it on a thin
+line, and it will stay up. In other fields you have to deal with
+matter, and make physical objects that work.
+
+
+But if I want to put an 'if' statement inside a 'while' statement I
+don't have to worry whether the 'if statement will oscillate against
+the 'while' statement and eventually fracture. I don't have to worry
+about whether the 'if' statement will dissipate heat well enough, or
+whether a voltage drop across the 'if' statement will stop the 'while'
+statement from working or, if it is working under water, whether salt
+water will get between the two statements and corrode them. I don't
+have to worry about how I will physically assemble each copy, and
+whether I can physically get access during construction to put one
+statement inside the other, and I don't have to worry about how, if
+one breaks, I will replace it.
+
+
+There are so many problems we don't have to worry about in software,
+that it is fundamentally easier to develop software than it is to
+develop physical products. This sounds strange to some people. But I'm
+comparing physical and software systems of the same complexity, the
+same number of parts. So what do we do when we are confronted with an
+easy field (such as software)? We push it further; we make software
+systems far bigger in terms of number of parts than physical
+systems. A physical system with a million pieces is a mega project; a
+software system with a million pieces, is a few hundred thousand lines
+of code; many programmers write that in a few years.
+
+
+What's more, if you have designed physical product then you have to
+build a factory to make it. To make a copy of a program you type
+'copy', and the same copy command will copy any program. So you don't
+have to build a factory to make the product. There is a tremendous
+simplification and a tremendous reduction of costs when designing
+software systems.
+
+
+So software really is different from other fields, because we are
+working with mathematical stuff; designing products is far easier; and
+we make systems that are much larger with just a few people. The
+result is that our products involve many ideas that could be patented
+already.
+
+
+If symphonies were patented
+---------------------------
+
+In some ways writing software is like writing a symphony: you use many
+notes and many ideas that have been used before. Imagine if the
+European governments of the 17th century had built a musical patent
+office. Now imagine it's 1800 and you're Beethoven: you want to write
+a symphony and make it legal. Well, you'll find it impossible, and
+when you complain, the patent holders will say: "Oh Beethoven you're
+just bitching because you've got no ideas of your own."
+
+
+Well, Beethoven had lots of good ideas, but he also used other
+people's ideas. Nobody is so brilliant they can create completely new
+music that everyone wants to listen to, and nobody can create software
+that does not use existing ideas. Of course a new word processor will
+have new ideas, but it must also use many old ideas. And because the
+job of software development is so huge, we don't need any artificial
+system to incentivise people to have new ideas; just sit people down
+and they will come up with new ideas as they work.
+
+
+Before software patents, most developers published new ideas they
+thought they would get credit for. Now the patent system is supposed
+to encourage disclosure of new ideas. But in the old days nobody kept
+ideas secret; they did keep the code secret, but they published the
+ideas; that way employees got credit and felt good. After patents they
+still kept code secret but now they keep the ideas too. So patenting
+has not encouraged any disclosure. So now, the ideas that have been
+patented are likely to be off limit for 20 years.
+
+
+The solution
+------------
+
+How do we change the policy to solve this problem? Two places: in the
+patent office, and where the patents are being applied.
+
+
+Changing the criteria for issuing patents can work in a country that
+has not authorised software patents before -- for instance in most
+parts of Europe. Simply by modifying patent laws to say software ideas
+cannot be patented this will keep problem out of Europe.
+
+
+That won't work in the US because the US already has large numbers of
+software patents, and it would not get rid of existing patents. In the
+US something would have to be done to change the scope of patents;
+perhaps by saying that general purpose software running on a
+computer's system that itself does not infringe a patent cannot be
+attacked.
+
+
+But the first idea is a good solution for Europe to use. When the US
+started having software patents there was no political debate and
+nobody noticed. Throughout the 80s we didn't know about this problem,
+and it was not until about 1990 that programmers did become aware.
+
+
+In Europe there has been a big political debate. Free-software
+developers have taken the lead, but we are not the only ones
+threatened; all software developers and even software users are
+threatened.
+
+
+A lot of the impetus for patenting software more widely in Europe
+comes from the UK patent office. It had a public consultation, and
+most responses were opposed to software patents, but it then wrote a
+report saying people seemed to be content with them. The UK patent
+office uses a term called technical effect -- this is a term that can
+stretch tremendously. The result is that the UK patent office is
+promoting something that looks like it helps solves the problem but
+that really gives carte blanche for patenting anything.
+
+
+If the business that used computers realised how much trouble this
+could cause for them they would be up in arms. Sometimes bureaucracy
+can be useful, but when it does not serve any purpose except to create
+artificial monopolies it does no good.
+
+
+The battle is not over. It still can be won.
+
+
+
+Article copyright ZDNet UK
+This document saved from http://news.zdnet.co.uk/story/0,,s2107497,00.html

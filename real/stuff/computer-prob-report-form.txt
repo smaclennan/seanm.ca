@@ -1,0 +1,92 @@
+Use this easy to use form the next time you
+have a computer problem. Fill it out before
+calling your PC helpdesk.
+
+
+    COMPUTER PROBLEM REPORT FORM
+
+
+ 1.  Describe your problem:
+____________________________________________
+
+ 2.  Now, describe the problem accurately:
+____________________________________________
+
+ 3.  Speculate wildly about the cause of the problem:
+____________________________________________
+
+ 4.  Problem Severity:
+
+        A.  Minor__
+        B.  Minor__
+        C.  Minor__
+        D.  Trivial__
+
+ 5.  Nature of the problem:
+
+        A.  Locked Up__
+        B.  Frozen__
+        C.  Hung__
+        D.  Strange Smell__
+
+ 6.  Is your computer plugged in?  Yes__ No__
+
+ 7.  Is it turned on?  Yes__ No__
+
+ 8.  Have you tried to fix it yourself?  Yes__ No__
+
+ 9.  Have you made it worse?  Yes__
+
+10.  Have you had "a friend" who "Knows all about
+     computers" try to fix it for you?  Yes__  No__
+
+11.  Did they make it even worse?  Yes__
+
+12.  Have you read the manual?  Yes__ No__
+
+13.  Are you sure you've read the manual?  Maybe__ No__
+
+14.  Are you absolutely certain you've
+     read the manual?   No__
+
+15.  If you read the manual, do you think
+     you understood it?  Yes__ No__
+
+16.  If 'Yes' then explain why you can't
+     fix the problem yourself.
+     _____________________________________
+     _____________________________________
+
+17.  What were you doing with your computer
+     at the time the problem occurred?
+______________________________________
+
+18.  If you answered 'nothing' then explain
+     why you were logged in?
+____________________________________________
+
+19.  Are you sure you aren't imagining
+     the problem?  Yes__ No__
+
+20.  Does the clock on your home VCR
+     blink 12:00?  Yes__ What's a VCR?__
+
+21.  Do you have a copy of 'PCs for
+     Dummies'?  Yes__ No__
+
+22.  Do you have any independent witnesses
+     to the problem?  Yes__ No__
+
+23.  Do you have any electronics products
+     that DO work?  Yes__ No__
+
+24.  Is there anyone else you could blame
+     this problem on?  Yes____
+
+25.  Have you given the machine a good whack
+     on the top?  Yes__ No__
+
+26.  Is the machine on fire?  Yes__  Not Yet__
+
+27.  Can you do something else instead of
+     bothering me?  Yes__

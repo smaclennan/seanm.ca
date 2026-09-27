@@ -1,0 +1,27 @@
+Date: 5/04/98
+
+As I'm training to become a Microsoft technician, I've heard many a
+story from some of the veterans. My favorite comes from my trainer,
+who used to take calls for the Windows 95 OS.
+
+One day a guy calls in saying he has network problems, so my trainer
+asked him to describe the network to get a little
+background. Apparently he wanted to share files between his computer
+at his house and his work site, but he couldn't see the files on
+either computer. 'So what kind of connection do you have?' my trainer
+asked. The customer said he had purchased 2 AppleTalk connectors
+(warning sign number 1) that looked like phone cables, but bigger, and
+he went on to describe the rest of his network. His network setup
+consisted of this: two RJ-45 connectors plugged into the ports on his
+Ethernet cards, and then alligator clips between the plugs and--get
+this--the barbed wire running between his house and his work site down
+the road. This left my trainer drop-jawed, and he thought he'd found
+the problem right there. 'Can you see the other computer?' he
+asked. Sure, the guy said. 'Are you sharing the files?' It was then
+the guy realized his mistake. He hadn't shared the files on either
+computer, but somewhere he'd figured out how to get barbed wire
+twisted correctly and in the right places to emulate 10 Base-T
+cabling. It worked perfectly he said, unless it was raining or a cow
+leaned against the fence.
+
+

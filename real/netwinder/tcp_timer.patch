@@ -1,0 +1,23 @@
+Index: net/ipv4/tcp_timer.c
+===================================================================
+RCS file: /cvs/pub/kernel/armlinux/net/ipv4/tcp_timer.c,v
+retrieving revision 1.2.2.8
+diff -u -r1.2.2.8 tcp_timer.c
+--- net/ipv4/tcp_timer.c	2000/03/28 21:57:36	1.2.2.8
++++ net/ipv4/tcp_timer.c	2000/04/25 17:49:24
+@@ -448,6 +448,7 @@
+ 
+ 	tp->retransmits++;
+ 	
++#ifdef SAM
+ 	/* Ugly hack. 1999/10/14 <ralphs@netwinder.org>, <seanm@netwinder.org>.
+ 	 * Occasionally, a bad checksum is computed and sent out the wire.
+ 	 * The bad checksum is consistently off by one from the correct value.
+@@ -475,6 +476,7 @@
+ 		}
+ 		/* TCP checksums will be recomputed by tcp_retransmit_skb() below */
+ 	}
++#endif
+ 
+ 	tp->dup_acks = 0;
+ 	tp->high_seq = tp->snd_nxt;

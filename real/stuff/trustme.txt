@@ -1,0 +1,32 @@
+To: 0xdeadbeef@petting-zoo.net
+Subject: Windows vulnerability
+Date: Thu, 21 Nov 2002 13:23:47 -0800
+
+
+From: "Michael A. Olson"
+
+
+Microsoft has announced a critical Windows security flaw that affects
+all versions of the OS except for XP.  You need to download and
+install a patch.  Microsoft's servers are swamped right now, I'm not
+able to download the patch.
+
+This is a rough one for Microsoft.  The vulnerability is that a buggy
+ActiveX control that the company distributed can be tricked into
+running arbitrary code on your system.  The immediate fix is to
+download and install a fixed version of the control.
+
+However, if you visit a Web page or receive HTML email from a bad guy,
+the buggy version of the control can be silently reinstalled.  This is
+a problem for anyone who clicked the "Always trust content from ..."
+checkbox during browser sessions.
+
+The long-term fix, according to Microsoft, is to remove Microsoft from
+your list of trusted publishers.
+
+That's a commendable recommendation -- it's correct and it's
+responsible to tell users how to fix the problem.  It has to be a bad
+day at Microsoft PR HQ, though.
+
+
+				mike

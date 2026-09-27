@@ -1,0 +1,33 @@
+THE EVOLUTION OF THE MATH PROBLEM
+
+1960
+
+A logger sells a truckload of lumber for $100.  His cost of production
+is 4/5 of this price.  What is his profit?
+
+1970 (Traditional)
+
+A logger sells a truckload of lumber for $100.  His cost of production
+is 4/5 of this price, or in other words, $80.  What is his profit?
+
+1970 (New Math)
+
+A logger exchanges a set L of lumber for a set M of money.  The
+cardinality of set M is 100 and each element is worth a dollar.  Make
+a square array of 100 dots to represent the elements of set M.  The
+set C of the cost of production contains 20 fewer elements than set M.
+Represent set C as a subset of K and answer the following question:
+What is the cardinality of set P of profits?
+
+1980
+
+A logger sells a truckload of lumber for $100.  His cost of production
+is $80 and his profit is $20.  Your assignment is to underline the
+number 20.
+
+1990 (Outcomes-based destreamed integrated Math)
+
+By cutting down beautiful forest trees, an environmentally ignorant
+logger makes a profit of $20.  What do you think of this way of making
+a living?  In your group, use role play to determine how the forest
+birds and squirrels feel.

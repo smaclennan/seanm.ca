@@ -1,0 +1,43 @@
+Newsgroups: rec.humor.funny
+Subject: Lame joke
+
+Why Engineers Don't Write Cookbooks
+-----------------------------------
+Chocolate Chip Cookies
+
+  1.) 532.35 cm3 gluten
+  2.) 4.9 cm3 NaHCO3
+  3.) 4.9 cm3 refined halite
+  4.) 236 cm3 partially hydrogenated tallow triglyceride
+  5.) 177.45 cm3 crystalline C12H22O11
+  6.) 177.45 cm3 unrefined C12H22O11
+  7.) 4.9 cm3 methyl ether of protocatechuic aldehyde
+  8.) Two calcium carbonate-encapsulated avian albumen-coated protein
+      ovoids
+  9.) 473.2 cm3 theobroma cacao
+ 10.) 236 cm3 de-encapsulated legume meats (sieve size #10)
+
+To a 2-L jacketed round reactor vessel (reactor #1) with an overall
+heat transfer coefficient of about 100 Btu/F-ft2-hr, add ingredients
+one, two and three with constant agitation.
+
+In a second 2-L reactor vessel with a radial flow impeller operating
+at 100 rpm, add ingredients four, five, six, and seven until the
+mixture is homogenous.
+
+To reactor #2, add ingredient eight, followed by three equal volumes
+of the homogenous mixture in reactor #1.
+
+Additionally, add ingredient nine and ten slowly, with constant
+agitation. Care must be taken at this point in the reaction to control
+any temperature rise that may be the result of an exothermic reaction.
+
+Using a screw extrude attached to a #4 nodulizer, place the mixture
+piece-meal on a 316SS sheet (300 x 600 mm).
+
+Heat in a 460K oven for a period of time that is in agreement with
+Frank &Johnston's first order rate expression (see JACOS, 21, 55), or
+until golden brown.
+
+Once the reaction is complete, place the sheet on a 25C heat- transfer
+table, allowing the product to come to equilibrium.

@@ -1,0 +1,142 @@
+Sean: This is *not* a joke. This is a real interview with Steve
+      Ballmer. Enjoy.
+
+Monday 14th October 2002  11:10am
+
+Ballmer on Linux, licensing and .Net
+
+"The truth is, we probably made (.Net) a little harder to understand
+ than we should have"
+
+By Mike Ricciuti
+
+Microsoft CEO Steve Ballmer knows what it's like to be in the hot
+seat. The company he leads has been under fire for a controversial new
+licensing programme that raised prices considerably for some
+customers. A high-profile initiative to deliver web services is on the
+rocks. And the threat from the open-source Linux operating system is
+stronger than ever.
+
+But Ballmer can claim some success, too. Windows XP, the company's
+flagship operating system, has sold well. More than 10 million people
+have downloaded the latest collection of fixes and updates, called
+Service Pack 1, according to Microsoft. The company's Visual
+Studio.Net tools have won rave reviews and wide customer
+acceptance. And as competitors founder and struggle to make sales,
+Microsoft sits on top of a $40bn pile of cash.
+
+Ballmer sat down with silicon.com's US News.com colleagues to discuss
+the next steps for .Net, the challenge of Linux, and Microsoft's bold
+entry into the enterprise business application market.
+
+Q: How well is .Net being accepted? A few months ago, chairman Bill
+   Gates said some parts of .Net, such as .Net My Services, didn't
+   take hold as expected.
+
+A: The .Net My Services concept is fine. The business side is still
+   being worked on. And we are working on the concepts, too. The truth
+   is, we probably made (.Net) a little harder to understand than we
+   (should) have. But that has not mattered - we have a lot of
+   customers doing projects now, enterprise customers, with .Net. They
+   are using Visual Studio.Net, they are using BizTalk Server to build
+   important line-of-business applications to connect applications
+   inside and outside of a firewall.
+
+Q: How do you define .Net?
+
+A: What is .Net? Well, the benefit of .Net is XML (Extensible Markup
+   Language) it's all about connection. We take the XML connection and we
+   extend it across both client and server - while other guys are only
+   server-focused. It's about connecting people to people, people to
+   information, businesses to businesses, businesses to information, and
+   so on. That is the benefit. What is .Net itself? It's a set of code we
+   ship that users, developers and IT people use to help build
+   applications that process XML information.
+
+Q: Why do you think has there been confusion in understanding that
+   message?
+
+A: It turns out we shipped some products that didn't have .Net as we
+   know it, the .Net framework in them, and that confused
+   things. Originally, internally we were saying .Net is kind of like
+   XML, and we were using it wherever we were talking about XML
+   products, instead of being more precise. At the end of the day, the
+   IT people and the developers get it quite well.
+
+Q: Where would you like to be with .Net plans in six to 12 months?
+
+A: It's getting to be conventional wisdom that the future of IT is
+   around XML. But I'd like conventional wisdom to be that XML brings
+   benefits today, and the best way to participate in the XML
+   revolution - in terms of user benefits and productivity - is Visual
+   Studio.Net. I'd like that to be the general perception. And part of
+   that means we are going to have a lot more projects using
+   Windows.Net Server and Visual Studio.Net.
+
+Q: A Yankee Group study says 40 per cent of corporations surveyed were
+   looking at operating system alternatives such as Linux, in part
+   because of the Microsoft licensing programme. What do you say to
+   that, and what do you hear from your own customers?
+
+A: I've heard frustration with the way we managed the transition to
+   our new licensing (program). Some customers are very happy because
+   they are paying less than they used to, some customers are not very
+   happy because they are going to pay more than they used
+   to. Probably, the most customers are not in either one of those
+   categories. They didn't like it at first - we worked with them, we
+   worked on their special needs. But I think they are OK with where
+   they are.
+
+   The term open source - it's a philosophy. People don't look at open
+   source they look at Linux. That's really all it comes down
+   to. People say 'What about Linux, versus your stuff?' And people
+   are going to look at whether we double our prices or take them
+   down. If we changed our prices, people are still going to look at
+   alternatives.
+
+   Second thing, our product is a more complete product. We have a
+   built-in application server that's well integrated - there is no
+   such comparable notion in the Linux server. We have a directory
+   server built in - there is no such comparable thing in Linux. The
+   Linux client hardly runs any applications, except a bunch of
+   shareware stuff that's not very good.
+
+   I think it's not complete, it's a poor value proposition versus
+   Windows. It is a clone of an operating system. There has yet to be
+   any innovation, new features or new capabilities out of the Linux
+   platform. First they cloned Unix, and there are people working on
+   cloning some of our stuff. But it's just a cloning operating
+   system. That doesn't mean we can stand still - we have to push
+   along. But I don't think anyone should expect anything innovative
+   coming out of that world. There's no data to support that.
+
+   People highlight, 'OK guys - where's the source code?' I think most
+   people don't want their employees using the source code every
+   day. Really, they don't. That's a distraction from real work. But a
+   lot of people do have a real need to see source code from time to
+   time for debugging and for security purposes. We've have initiated
+   a shared source programme. We're learning, if you will, from the
+   Linux world. We're not above getting smarter every day. If you are
+   a large account, for example, you can get access to source code.
+
+   If you take a look at the Linux world, there has been some
+   interesting things going on in the use of community in support
+   tools. There are many more communities in the Windows world than in
+   the Linux world. I don't think we have mobilised that community as
+   effectively as the Linux community has. We have some in Visual
+   Studio, and you will see more and more of that.
+
+   In the areas where we think they have a real lead... we're not
+   going to be cheaper to acquire. But we have lower total cost, more
+   complete, more innovative, and we are going to share source as
+   broadly as we can, but not as broadly as they do. And we are going
+   to have as or more a community as Linux does. I think if you put
+   all of that together, that's our competitive proposition.
+
+   But people are going to look at Linux, whether our stuff costs $5,
+   $50 or $100. People are going to look at it. So we have to work
+   that value proposition every day.
+
+
+Original at http://www.silicon.com/public/door?6004REQEVENT=
+&REQINT1=55937&REQSTR1=silicon.com

@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <title>YOW Hardware</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <style type="text/css">
+      <!--
+      BODY {
+	background-color: #FEFEFE;
+	color: #000000;
+	font-family: "comic sans ms", helvetica, arial, sans-serif;
+	text-align: justify;
+	margin: 1em 10%;
+      }
+      .outline {
+	background-color: #E0E0E0;
+	color: #3366CC;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+	padding: .5em 0;
+      }
+
+      p.heading { text-align: center; }
+
+      li { padding: .5em 0; }
+      -->
+    </style>
+  </head>
+
+  <body bgcolor="#FEFEFE">
+
+    <div class=outline>YOW Hardware</div>
+
+    <p>Yow is a rev 6 NetWinder. The rev 6 was to be an easier,
+    cheaper, to manufacture version of the rev 5. Both the audio and
+    analog video chips where removed. This left room on the main board
+    for the tulip chip so the daughtercard was removed. It has
+    simplified front and rear panels and a bigger <b>quieter</b> fan.
+
+    <p>An initial run of twelve rev 6s where produced. The first one
+    failed completely. The +5 was connected to ground. This was
+    corrected by carefully using a dremel to cut the connections. Of
+    the other eleven, one never worked. So there are ten rev 6s in
+    existence. With the demise of Rebel.com, I do not know where the
+    other nine are.
+
+    <p>The crusoe version of the 'Winder made the rev 6 obsolete
+    before it even had a second spin of the board, let alone hit
+    production.
+
+    <p>Yow has been my gateway machine since August 2000.
+
+    <div class=outline>Intel StrongARM</div>
+
+    <p>The original 'Winders used the Digital StrongARM. By the time
+    the rev 6 was created, Digital was gone and all the Digital
+    StrongARMs where used up. The new StrongARMs are made by Intel.
+
+    <p>The StrongARM used in the 'Winder is a 233 Mhz processor which
+    was overclocked to 275 Mhz. This worked well with the Digital
+    versions, not so well with the Intel versions. For yow, I chose
+    the rev 6 that worked best at 275 Mhz and added a heat sink for
+    luck. There is no fan on the heat sink.
+
+    <div class=outline>RAM</div>
+
+    <p>Under 2.2.19, YOW had 64M of ram. Here is the
+       output of the free command which seems to be typical of YOW under
+       load.
+    <pre>
+	     total       used       free     shared    buffers     cached
+Mem:         63428      31024      32404       6080       3780      18676
+-/+ buffers/cache:       8568      54860
+Swap:       262576       2504     260072
+    </pre>
+
+    <p>Here is 2.4.19 with the same 64M of ram. Notice that 2.4 is
+    much more aggressive at caching.
+
+    <pre>
+	     total       used       free     shared    buffers     cached
+Mem:         63352      62284       1068          0       4864      40324
+-/+ buffers/cache:      17096      46256
+Swap:       262576       4228     258348
+    </pre>
+
+    <p>I then upgraded YOW to 128M. Here is the new free output. The
+    added memory goes to a bigger cache and more buffers.
+
+    <pre>
+	     total       used       free     shared    buffers     cached
+Mem:        128180     120684       7496          0       6484      88128
+-/+ buffers/cache:      26072     102108
+Swap:       262576       5300     257276
+    </pre>
+
+    <div class=outline>Disk</div>
+
+    <p>Yow has a Fujitsu MHD2021AT with 2G of disk space. When I was at
+      Rebel, I did a test of the 2G, 4G and 6G drives and the
+      Fujitsu came out on top.
+
+    <p>Below is the disk usage.
+    <pre>
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/hda1             496M   88M  382M  19% /
+/dev/hda3             496M   62M  408M  13% /var
+/dev/hda4             774M   49M  686M   7% /home
+    </pre>
+
+    <p>As you can see, I am barely using the 2Gs. So I am not looking
+       for a new disk anytime soon.
+
+    <div class=outline><a name="software">YOW Software</a></div>
+
+    <p>YOW is running a stripped down <em>DM version 3.1 [Build
+    15]</em> base install from Rebel.com (RIP). Instead of the
+    2.2.13 kernel that comes with the base install, I have upgraded to
+    the <em>Linux 2.4.19</em> kernel.
+
+    <p>The upgrade to the 2.4 kernel was painful, so I will outline
+    the steps here to hopefully save others the pain.
+
+    <p class=heading><b>Upgrading to 2.4</b>
+
+    <p>First: you must have a newer version of <code>modutils</code>
+    since the driver module layout has changed. I recommend
+    <code>modutils-2.3.20-1</code>. This version works with both 2.2
+    and 2.4 kernels.
+
+    <p>Also, do a quick <code>rpm -q initscripts</code> and make sure
+    it is at least 4.70. It took me days to work out that the
+    initscript package on YOW was too old.
+
+    <p class=heading><b>iptables</b>
+
+    <p>Iptables replaces ipchains in the 2.4 kernel. If you where
+    using ipchains, you will need to upgrade. This is not going to be
+    a complete introduction to iptables, just some hints.
+
+    <p>You need the user mode iptables code. I have uploaded
+    <code>iptables-1.2.7a</code> to <a
+    href="http://www.netwinder.org/">Netwinder.org</a>.
+
+    <p>A good set of default rules can be found on the <a
+    href="http://www.netfilter.org/">netfilter</a> site. Follow the
+    tutorials link. Note: If you are running PPPoE, replace the eth0
+    external interface with ppp0.
+
+    <p class=heading><b>Upgrading PPPoE</b>
+
+    <p>I have a DSL modem connected to YOW that requires PPPoE. PPPoE
+    is built in to the 2.4 kernel, but there is a dearth of
+    information. Here is an incomplete list to getting PPPoE running
+    under 2.4. Note: I assume you are already using PPPoE under 2.2
+    and have it running.
+
+    <ol>
+      <li>First you need a newer version of the ppp package. Do not
+      use ppp-2.4.0, it will not work properly with PPPoE. I used the latest CVS
+      version, 2.4.2b1. It can be downloaded from <a
+      href="http://www.samba.org/ppp/">samba.org</a>. Make sure you get the
+      pppd and the plugin, <code>/usr/lib/pppd/plugins/rp-pppoed.so</code>.
+
+	<br><br>Note: The 2.4.1 version from netwinder.org and others
+	does not contain the plugin.
+
+      <li>You must make sure you have a newer pam
+      package. Specifically, make sure you have the file
+      <code>/etc/pam.d/system-auth</code> file. The pam-0.72-20
+      version from netwinder.org will do.
+
+      <li>Add the following line to the top of your
+      <code>/etc/ppp/options</code> file:
+	<pre>
+  plugin /usr/lib/pppd/plugins/rp-pppoe.so
+	</pre>
+
+      Some of the options in your options
+      file are probably no longer supported. Chief amoung them, the
+      <code>lock</code> option. I just kept deleting the offending
+      option rerunning pppd until it
+      stopped complaining! You might want to keep the old copy as
+      backup.
+
+      <li>You cannot use your old pppoed script or firewall script. I
+      have no clean replacements yet. To start pppd the following
+      should work:
+	<ol>
+	  <li>Run the iptables script
+	  <li><code>ifup eth0</code>
+	  <li><code>modprobe pppoe</code><br>
+	    Note: You may have to remove the mssclampfw line from
+	    modules.conf. If you do, remember to <code>depmod -a</code>.
+	  <li><code>pppd eth0</code>
+	</ol>
+    </ol>
+
+    <small>Contact the <a href="mailto:webmaster@seanm.ca">Webmaster</a>
+      </small>
+    </div>
+  </body>
+</html>

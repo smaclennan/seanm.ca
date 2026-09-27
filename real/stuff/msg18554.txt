@@ -1,0 +1,35 @@
+Subject: The 20th anniversary of the Internet
+From: Bob Braden
+Date: Sat, 14 Dec 2002 10:08:38 -0800 (PST)
+
+We ought not to let pass unnoticed the impending 20th anniversary of
+the Internet.  The most logical date of origin of the Internet is
+January 1, 1983, when the ARPANET officially switched from the NCP
+protocol to TCP/IP.  Six months later, the ARPANET was split into the
+two subnets ARPANET and MILNET, which were connected by Internet
+gateways* (routers).
+
+The planning for the January 1983 switchover was fully documented in
+Jon Postel in RFC 801.  The week-by-week progress of the transition was
+reported in a series of 15 RFCs, in the range RFC 842 - RFC 876, by
+UCLA student David Smallberg.
+
+There may still be a few remaining T shirts that read, "I Survived the
+TCP/IP Transition".  People sometimes question that any geeks would
+have been in machine rooms on January 1.  Believe it!!  Some geeks got
+very little sleep for a few days (and that was before the work "geek"
+was invented, I believe.)
+
+So, on New Year's Eve, hoist one for the 20th anniversary of the
+Internet.
+
+Bob Braden
+
+____________________________________________________
+
+
+* Routers brought to you by Bob Hinden of BBN.
+
+** Prominent survivors included Dan Lynch of Interop fame.
+   And of course Vint Cerf was working the Levers of Power at
+   ARPA.
