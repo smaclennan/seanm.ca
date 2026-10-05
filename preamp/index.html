@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <title>Grey Box Preamp</title>
+    <link rel="stylesheet" type="text/css" href="../seanm.css">
+  </head>
+  <body bgcolor="#C0C0C0">
+    <h1>GREY BOX PREAMP</h1>
+    <!-- First use Dec 20, 2005 -->
+    <hr>
+
+    <p>This is a clean preamp that I designed to use with my bass, a
+    power amp, and a cab at a rehearsal space. (Rehearsal space being
+      a fancy name for the singers basement.)
+
+    <p><img src="images/preamp-build.jpg" width=505 height=423
+	    alt="Grey Box Preamp">
+
+    <h2>Design Goals</h2>
+
+    <ul>
+	<li>Flat frequency response.
+	<li>20dB gain.
+	<li>2V p-p input.
+	<li>No controls.
+	<li>Tuner out.
+	<li>Handle output to low input impedance.
+	<li>Run off cheap wall wart.
+    </ul>
+
+
+    <h2>Schematic</h2>
+
+    <img src="images/preamp.gif" width=640 height=480
+      alt="preamp schematic">
+
+    <h2>Design</h2>
+
+    <p>I am very proud of this preamp since, unlike the <a
+    href="mupreamp.html">mu-preamp</a>, I designed it from the ground
+    up. Although there is nothing special about the design, at least
+    it is all mine.
+
+    <p>The design started as an all transistor design using only
+    MPSA18s. (<a href="images/preamp-bjt.gif">Original design</a>)
+    The original design had three stages: input buffer, first gain
+    stage, second gain stage. I did not design the input buffer, I got
+    it from the Acoustic Control 360 Bass Preamp schematic.
+
+    <p>I breadboarded the original design and it worked. Then I
+    realized that a FET could provide both the high input impedance
+    and the first gain stage. So I switched to the current design. And
+    got rid of the part I did not design in the process.
+
+    <p>You may notice that the every stage has paired transistors. The
+    second transistor acts as a buffer. For the first stage, it
+    provides a high impedance to the FET to maximize its gain.
+
+    <p>For the second stage, the buffer is required to provide a nice
+    low output impedance for the power amp. The power amp I am using
+    has a 10K input impedance. I measured the output impedance of the
+    NPN gain stage without the buffer at about 3.5K.  With the buffer
+    it is about 16 ohms. Much better.
+
+    <p>This design has a much cleaner sound than the <a
+    href="mupreamp.html">mu-preamp</a>. However, guitar players might
+    like the sound of the mu-preamp better.
+
+    <h3>Design Notes</h3>
+
+    <ul>
+      <li>The preamp is designed to handle a maximum input of 2V p-p
+      without clipping at max gain.
+
+	<br><br>
+
+      <li> The first stage is designed for a gain of 2.5 and an Ids of
+      about 1mA. The second stage is designed for a gain of 4 and an
+      Ic of 5mA. This provides a gain of 10 which is 20dB.
+	<br><br>
+
+      <li>I used a 2N5458 for the FET. Other FETs could be used. I
+      would not recommend the common J201 since it would be running at
+      it's maximum Idss.  <br><br>
+
+      <li>I used MPSA18s for the NPN transistors. It was designed for
+      2N5088s, so any NPNs with a minimum hfe of 350 or higher should
+      work fine.
+	<br><br>
+
+      <li>I chose a 24V supply voltage because that is the largest
+      wall wart style supply that is easy to get. The 24V supply I
+      used produces close to 32V at the low current used by the
+      preamp. I used an LM7824 to regulate the voltage to 24V.
+	<br><br>
+
+	24V is also the about the minimum to handle 20V p-p with a 2V
+	p-p input.
+
+	<br><br>
+
+      <li>Spice simulations show response as flat (&lt; -1dB) from 20Hz
+	to 20kHz.
+	<br><br>
+
+      <li>The current design does not have a tuner out. I have left
+      room to put one in.
+	<br><br>
+
+      <li>I used to show a level control. I gave up on it since it was
+	  always scratchy. I have instead dropped a 100k pot on the output
+	  as a volume control.
+
+	<br><br>
+
+      <li>If you need a bit more gain, replace R3 with a 2.2k
+      resistor. Note this will decrease the maximum input some.<br><br>
+    </ul>
+
+    <h2>Credits</h2>
+
+    <p>Credit goes to the guys at the <a
+    href="http://www.diystompboxes.com/">DIYstompboxes.com</a> forum.
+
+    <p>Extra credit goes to R.G. and George Giblet for going above and
+    beyond the call of duty answering my questions. I owe you a beer.
+
+    <h2>Changes</h2>
+
+    <p><b>April 2007</b> Removed gain control.
+
+    <p><b>October 2006</b> Updated the schematic to move the gain
+    control.
+
+    <p><b>April 2006</b> New schematic with components given a
+    reference. Added 1M level idea. Added decreasing R3 for more gain.
+  </body>
+</html>
